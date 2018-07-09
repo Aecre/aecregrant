@@ -3370,3 +3370,8 @@ h6:active .title-anchor-link:active,
 .purple.error-404 {
     background-color: #FDE8F8
 }
+
+#mc_embed_signup { background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#mc_embed_signup form { padding: 0px; }
+#mc_embed_signup .response { width: 100%; padding: 0 0 20px 0;}
+#mc_embed_signup #mce-responses { margin: 0px ; }

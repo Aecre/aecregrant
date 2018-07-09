@@ -4,12 +4,26 @@
 {% include head.html %}
 
 <body>	
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=269727653041871&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<header class="site-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					
-					<a href="/" class="site-header__logo">Aecre Grants</a>
+					<a href="/" class="site-header__logo">
+						<svg class="svg-fill" style="width: 160px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.7 37.3">
+  <path d="M18.7 37.3C8.4 37.3 0 28.9 0 18.7 0 8.4 8.4 0 18.7 0c6.9 0 13.2 3.8 16.5 9.9l-2.3 1.2C30 5.8 24.6 2.6 18.7 2.6 9.8 2.6 2.6 9.8 2.6 18.7s7.2 16.1 16.1 16.1c2.8 0 5.6-.7 8-2.1-1.2-1.3-2.1-2.8-2.7-4.5-1.3-3.4-1.4-8.6 1.5-11.8 1.3-1.5 3.3-2.4 5.3-2.2 1.8.1 3.5 1.1 4.4 2.7 2.5 4 1.2 9.7-1.4 13-.8 1.1-1.8 2.1-2.9 3 .6.4 1.3.8 2 1.1 2.7 1.1 5.4.5 7.7-1.6l1.7 1.9c-3 2.8-6.8 3.5-10.4 2.1-1.2-.5-2.3-1.1-3.3-1.9-2.9 1.8-6.4 2.8-9.9 2.8zm11.5-20.6c-1.1 0-2.2.5-2.9 1.3-2 2.3-2 6.4-1 9.3.5 1.4 1.4 2.8 2.5 3.9 1.1-.8 2.1-1.8 2.9-2.9 2-2.7 3.1-7.3 1.3-10.1-.6-.9-1.4-1.4-2.5-1.5h-.3zM62.1 37.3c-10.3 0-18.7-8.4-18.7-18.7C43.5 8 51.1 0 61.2 0c3.3 0 6.6.8 9.2 2.2 3.1 1.7 5.3 4.2 6.3 7.3.8 2.6.6 5.3-.8 7.5-1.3 2.2-3.6 3.6-6.3 4.1-4.2.7-9.1-.5-12.6-3l1.5-2.1c2.9 2.1 7.2 3.1 10.7 2.6 2-.3 3.5-1.3 4.5-2.9.9-1.5 1.1-3.4.5-5.3-1.1-3.7-5.2-7.8-13-7.8-8.6 0-15.1 6.9-15.1 16.1 0 8.9 7.2 16.1 16.1 16.1 5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.4 6-9.7 9.8-16.6 9.8zM101.3 37.3c-10.3 0-18.7-8.4-18.7-18.7C82.7 8.4 91 0 101.3 0c6.9 0 13.2 3.8 16.5 9.9l-2.3 1.2c-2.8-5.2-8.2-8.5-14.2-8.5-8.9 0-16.1 7.2-16.1 16.1s7.2 16.1 16.1 16.1c5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.3 6-9.6 9.8-16.5 9.8zM171.3 37.3c-10.3 0-18.7-8.4-18.7-18.7C152.6 8 160.2 0 170.3 0c3.3 0 6.6.8 9.2 2.2 3.1 1.7 5.3 4.2 6.3 7.3.8 2.6.6 5.3-.8 7.5-1.3 2.2-3.6 3.6-6.3 4.1-4.2.7-9.1-.5-12.6-3l1.5-2.1c2.9 2.1 7.2 3.1 10.7 2.6 2-.3 3.5-1.3 4.5-2.9.9-1.5 1.1-3.4.5-5.3-1.1-3.5-5.3-7.7-13.1-7.7-8.6 0-15.1 6.9-15.1 16.1 0 8.9 7.2 16.1 16.1 16.1 5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.2 5.9-9.5 9.7-16.4 9.7zM140.3 0c-5.5 0-10.5 2.4-14 6.4V1.3h-2.6V36h2.6V10.8c2.8-5.1 8.2-8.2 14-8.2 3.8 0 7.4 1.3 10.3 3.8l1.7-2c-3.3-2.9-7.6-4.4-12-4.4z"></path>
+</svg>
+					</a>
 				
 				
 					<ul class="site-header__nav hidden-xs">
@@ -57,7 +71,7 @@
 						<div class="content">
 							
 							<h2 id="apply">Apply for a grant</h2>
-							<p>Applications are accepted on a rolling basis. At least one £500 grant is awarded every three months, for a total of three grants, acording to the following schedule.</p>
+							<p>Applications are accepted on a rolling basis. At least one £500 grant is awarded every three months, for a total of three grants, according to the following schedule.</p>
 
 							<p>
 								<ul>
@@ -67,46 +81,68 @@
 								</ul>
 							</p>
 
-							<p>Additional grats may become available thanks to <a href="#sponsor">other sponsors</a>. If so, they'll be awarded according to the same schedule.</p>
+							<p>Additional grants may become available thanks to <a href="#sponsor">other sponsors</a>. If so, they'll be awarded according to the same schedule.</p>
+
+							<p>
+								<a href="https://goo.gl/forms/SeQxW273c93895a23" target="_blank" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
+									APPLY FOR THE GRANT
+								</a>
+							</p>
 
 							<h2 id="sponsor">Sponsor a grant</h2>
 							<p>If you'd like to sponsor a grant, here's how it works:</p>
 
 							<p>
 								<ul>
-									<li>You must sponser the full amount (£500)</li>
-									<li>We can either select a receipient on your behalf, or share the applications with you. If you choose the latter, we will only share applications <i>after</i> receiving your sponsorship (to protect applicants' privacy)</li>
-									<li>To keep grants running smoothly, We will ask that funds are disbursed through us. Your grant will be awarded according o the scheule above, along with the other recipients</li>
+									<li>You must sponsor the full amount (£500)</li>
+									<li>We can either select a recipient on your behalf or share the applications with you. If you choose the latter, we will only share applications <i>after</i> receiving your sponsorship (to protect applicants' privacy)</li>
+									<li>To keep grants running smoothly, we will ask that funds are disbursed through us. Your grant will be awarded according to the schedule above, along with the other recipients</li>
 								</ul>
 							</p>
 
-							<h2 id="sponsor">FAQ</h2>
+							<h2 id="faq">FAQ</h2>
 							
 							<h4>Is this real?</h4>
-							<p>Yes! At <a href="https://www.aecre.co.uk" target="_blank">Aecre</a> rather than keeping our profits for ourselves, we'd rather share them with those who would put it to a good use on exciting projects they're passionate about that would benefit our environment. This grant scheme was inspired by <a href="https://www.heliumgrant.org/" target="_blank" rel="nofollow">Helium Grant</a></p>
+							<p>Yes! At <a href="https://www.aecre.co.uk" target="_blank">Aecre</a> we'd rather share our profits with those who would put it to a good use, helping those with exciting projects they're passionate about that would benefit our environment. This grant scheme was inspired by <a href="https://www.heliumgrant.org/" target="_blank" rel="nofollow">Helium Grant</a></p>
 
-							<h4>What type of proposals do you fund?<h4>
+							<h4>What type of proposals do you fund?</h4>
+							<p>These grants are meant to serve as risk capital, so you can act upon whatever you can't stop thinking about. This could include: equipment or tools to do your work, time to work on a research project, tuition for a class or workshop, etc.</p>
+							<p>Creativity is encouraged! You can use the grant however you feel it furthers your goals. Just make sure you can explain to a stranger (us) why it's important.</p>
+							<p>
+								We'll prioritise proposals where: 
+								<ul>
+									<li>Funding goes towards an individual, not an organisation</li>
+									<li>Funding isn't readily available for this type of proposal</li>
+									<li>You've taken action already, or can otherwise demonstrate your commitment</li>
+									<li>You have an interesting backstory or unusual insight into your work</li>
+									<li>Impact extends beyond the grant's timeline</li>
+									<li>Grant timeline is shorter (ex. 3 Months) vs. longer (ex. 3 years)</li>
+								</ul>
+							</p> 
 
-							<h4>When you say "no strings attached", what does that mean?<h4>
+							<h4>When you say "no strings attached", what does that mean?</h4>
+							<p>If you're selected for a grant, we will email you to arrange payment details. We'll send you a follow-up email to hear how it all went. That's it!
+
 							
 							<h4>Can anybody apply?</h4>
+							<p>Yes, any age, industry, job title, philosophy, or stage of life. The only requirement is that you must reside within the UK.</p>
 
-							<h4>How will I receive the money></h4>	
+							<h4>How will I receive the grant?</h4>
+							<p>We will send the money through a bank transfer, or via an agreed method that suits you.</p>
 
 							<h4>I'm outside of the UK, can I apply?</h4>
 							<p>At the moment, we can only accept proposals for projects within the UK. We hope to open this up further afield in the future, sign up to our mailing list below for updates.</p>
 
-							<h4>I have a question about appling for a grant. How can I get in touch?</h4>
-							<p>Email us on <a href="mailto:grants@aecre.co.uk">grants@aecre.co.uk</a>
+							<h4>I have a question about applying for a grant. How can I get in touch?</h4>
+							<p>Email us at <a href="mailto:grants@aecre.co.uk">grants@aecre.co.uk</a>
 
 							<h4>How can I get updated on this project?</h4>
-							<p>Sign up below. We'll email infrequently with updates on projects we've given grants too, and when new funding cycles are annouced.
+							<p>Sign up below. We'll email infrequently with updates on projects we've given grants too, and when new funding cycles are announced.
 							<!-- Begin MailChimp Signup Form -->
 							<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 							<style type="text/css">
-								#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-								/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-								   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+								#mc_embed_signup { background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+								#mc_embed_signup form { padding: 0px; }
 							</style>
 							<div id="mc_embed_signup">
 							<form action="https://aecre.us18.list-manage.com/subscribe/post?u=0fee906a32fee15cbcf0e46d8&amp;id=4e1f751a1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -146,7 +182,11 @@
 			<div class="row">
 				<div class="col-sm-6">
 					
-						<a href="/blue/" class="site-footer__logo">Aecre</a>
+						<a href="https://www.aecre.co.uk" target="_blank" class="site-footer__logo">
+							<svg class="svg-fill" style="width: 160px; opacity: 0.3;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.7 37.3">
+  <path d="M18.7 37.3C8.4 37.3 0 28.9 0 18.7 0 8.4 8.4 0 18.7 0c6.9 0 13.2 3.8 16.5 9.9l-2.3 1.2C30 5.8 24.6 2.6 18.7 2.6 9.8 2.6 2.6 9.8 2.6 18.7s7.2 16.1 16.1 16.1c2.8 0 5.6-.7 8-2.1-1.2-1.3-2.1-2.8-2.7-4.5-1.3-3.4-1.4-8.6 1.5-11.8 1.3-1.5 3.3-2.4 5.3-2.2 1.8.1 3.5 1.1 4.4 2.7 2.5 4 1.2 9.7-1.4 13-.8 1.1-1.8 2.1-2.9 3 .6.4 1.3.8 2 1.1 2.7 1.1 5.4.5 7.7-1.6l1.7 1.9c-3 2.8-6.8 3.5-10.4 2.1-1.2-.5-2.3-1.1-3.3-1.9-2.9 1.8-6.4 2.8-9.9 2.8zm11.5-20.6c-1.1 0-2.2.5-2.9 1.3-2 2.3-2 6.4-1 9.3.5 1.4 1.4 2.8 2.5 3.9 1.1-.8 2.1-1.8 2.9-2.9 2-2.7 3.1-7.3 1.3-10.1-.6-.9-1.4-1.4-2.5-1.5h-.3zM62.1 37.3c-10.3 0-18.7-8.4-18.7-18.7C43.5 8 51.1 0 61.2 0c3.3 0 6.6.8 9.2 2.2 3.1 1.7 5.3 4.2 6.3 7.3.8 2.6.6 5.3-.8 7.5-1.3 2.2-3.6 3.6-6.3 4.1-4.2.7-9.1-.5-12.6-3l1.5-2.1c2.9 2.1 7.2 3.1 10.7 2.6 2-.3 3.5-1.3 4.5-2.9.9-1.5 1.1-3.4.5-5.3-1.1-3.7-5.2-7.8-13-7.8-8.6 0-15.1 6.9-15.1 16.1 0 8.9 7.2 16.1 16.1 16.1 5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.4 6-9.7 9.8-16.6 9.8zM101.3 37.3c-10.3 0-18.7-8.4-18.7-18.7C82.7 8.4 91 0 101.3 0c6.9 0 13.2 3.8 16.5 9.9l-2.3 1.2c-2.8-5.2-8.2-8.5-14.2-8.5-8.9 0-16.1 7.2-16.1 16.1s7.2 16.1 16.1 16.1c5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.3 6-9.6 9.8-16.5 9.8zM171.3 37.3c-10.3 0-18.7-8.4-18.7-18.7C152.6 8 160.2 0 170.3 0c3.3 0 6.6.8 9.2 2.2 3.1 1.7 5.3 4.2 6.3 7.3.8 2.6.6 5.3-.8 7.5-1.3 2.2-3.6 3.6-6.3 4.1-4.2.7-9.1-.5-12.6-3l1.5-2.1c2.9 2.1 7.2 3.1 10.7 2.6 2-.3 3.5-1.3 4.5-2.9.9-1.5 1.1-3.4.5-5.3-1.1-3.5-5.3-7.7-13.1-7.7-8.6 0-15.1 6.9-15.1 16.1 0 8.9 7.2 16.1 16.1 16.1 5.9 0 11.4-3.3 14.2-8.5l2.3 1.2c-3.2 5.9-9.5 9.7-16.4 9.7zM140.3 0c-5.5 0-10.5 2.4-14 6.4V1.3h-2.6V36h2.6V10.8c2.8-5.1 8.2-8.2 14-8.2 3.8 0 7.4 1.3 10.3 3.8l1.7-2c-3.3-2.9-7.6-4.4-12-4.4z"></path>
+</svg>
+						</a>
 					
 					
 						<hr>
@@ -155,24 +195,11 @@
 				</div><!-- /.col -->
 				
 					<div class="col-sm-6 align-right">
+							Share Aecre Grants
 						<ul class="social-list">
 							
 								<li>
-									<a href="https://twitter.com/themejack" target="_blank" class="social-list__item social-list__item--twitter">
-										Twitter
-									</a>
-								</li>
-							
-								<li>
-									<a href="https://github.com/themejack" target="_blank" class="social-list__item social-list__item--github">
-										Facebook
-									</a>
-								</li>
-
-								<li>
-									<a href="https://github.com/themejack" target="_blank" class="social-list__item social-list__item--github">
-										Instagram
-									</a>
+									<div class="addthis_inline_share_toolbox"></div>
 								</li>
 							
 						</ul><!-- /.social-list -->
@@ -183,7 +210,9 @@
 	</footer><!-- /.site-footer -->
 
 		</div><!-- /.js-footer-area -->
-	</body>
 
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4346c5caec1cd7"></script>
+
+	</body>
 
 </html>
