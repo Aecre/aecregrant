@@ -233,7 +233,7 @@ template {
 }
 
 html {
-    font-size: 14px;
+    font-size: 19px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -251,7 +251,7 @@ html {
 body {
     color: #474747;
     font-family: "CeraPro-Light", sans-serif;
-    font-size: 1.2em;
+    font-size: 19px;
     line-height: 1.8em
 }
 
