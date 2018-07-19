@@ -2286,7 +2286,7 @@ pre.highlight {
 }
 
 .site-header+.hero-subheader {
-    padding: 9.375rem 0 3.4375rem 0
+    padding: 9.375rem 20px 3.4375rem 20px
 }
 
 @media (min-width: 768px) {
